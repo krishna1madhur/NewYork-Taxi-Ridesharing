@@ -1,6 +1,4 @@
 #NewYork-Taxi-Ridesharing
-Team-8 submission
-
 
  To run the code locally, please follow these steps:
 
