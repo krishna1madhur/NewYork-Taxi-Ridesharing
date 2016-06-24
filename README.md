@@ -1,6 +1,8 @@
 #NewYork-Taxi-Ridesharing
 
- To run the code locally, please follow these steps:
+Please visit 'Project Description.txt' file for detailed information about the project.
+
+To run the code locally, please follow these steps:
 
 - Below are the steps to run the source code to perform more trials and conduct simulations for all the algorithms:
     The steps to use this API is :
