@@ -1,14 +1,29 @@
-This project is aimed at developing a ride-sharing algorithm on spatio-temporal data. The data in this case represents taxi operation information in New York City.
-Background
+Data:
 
-Getting a taxi in highly congested areas (e.g. airports, train stations) is both time consuming and expensive. While the emergence of novel Transportation Network Companies (e.g. Uber) has helped increase the supply of drivers during peak times, they have done little to reduce congestion in ‘hot spots’ such as airports, major stations, and stadiums.  In these places, a steady stream of passengers arrive via some public transport mode, say train, and then depart to different destinations. The large volume and continuous flow of arriving passengers create a golden opportunity for ridesharing among departing passengers. In a ride sharing mechanism, the passenger submit a ride request shortly before departure specifying some parameters such as pickup time, passenger destination, willingness to walk to the destination, the maximum delay tolerated due to ride-sharing, maximum time the passenger is willing to walk and number of travelers in the party. In general, the goal is to allocate passengers at a transport terminal to taxi cabs for ride sharing given various constraints. 
+1. This project is aimed at developing a ride-sharing algorithm on spatio-temporal data. 
+2. The data in this case represents taxi operation information in New York City.
+3. Taxi rides origination from hot spot- JFK are only considered.
 
-Tasks 
+Background:
 
-1. Device a ride-sharing algorithm that enables real time taxi ride-sharing from a transport terminal. The user will input the destination address, number of travelers in party and constraints. The taxi maximum occupancy can be assumed to be 3.
+1. The project aims at reducing congestion in hot spots such as airports and train stations.
+2. The large volume and continuous flow of arriving passengers create a golden opportunity for ridesharing among departing passengers. 
+3. In a ride sharing mechanism, the passenger submit a ride request shortly before departure specifying some parameters such as:
+	pickup time, passenger destination, willingness to walk to the destination, the maximum delay tolerated due to ride-sharing, 
+	maximum time the passenger is willing to walk and number of travelers in the party. 
+4. The goal is to allocate passengers at a transport terminal to taxi cabs for ride sharing given various constraints. 
+
+Tasks:
+
+1. Device a ride-sharing algorithm that enables real time taxi ride-sharing from a transport terminal. 
+The user will input the destination address, number of travelers in party and constraints. The taxi maximum occupancy can be assumed to be 3.
 2.  Analyze the following:
-a) What percentage of trips will be saved (or savings in terms of vehicle travel time or vehicle miles travelled) if x% of the total passengers within a time pool are ready to ride share?
-b) Is there any trip savings (or savings in terms of vehicle travel time or vehicle miles travelled), if the passengers are willing to walk? For example, if passengers allow a 10-minutes’ walk instead of a 5-minutes’ walk, what is the effect on percentage trip savings by ride sharing?
-c) Consider different pool sizes (5 min, 7 min, 10 min etc.). Analyze if there is variation in the percentage trip saved (or savings in terms of vehicle travel time or vehicle miles travelled) with respect to pool size.
-d) In a real time scenario, the algorithm must be capable of allocating passengers to a taxi cab in less than a minute. What is the computation time of your ride sharing algorithm? Propose ideas to improve the computation time by quickly identifying trips that cannot be merged.
+a) What percentage of trips will be saved (or savings in terms of vehicle travel time or vehicle miles travelled) 
+	if x% of the total passengers within a time pool are ready to ride share?
+b) Is there any trip savings (or savings in terms of vehicle travel time or vehicle miles travelled), 
+	if the passengers are willing to walk? For example, if passengers allow a 10-minutes’ walk instead of a 5-minutes’ walk, what is the effect on percentage trip savings by ride sharing?
+c) Consider different pool sizes (5 min, 7 min, 10 min etc.). 
+	Analyze if there is variation in the percentage trip saved (or savings in terms of vehicle travel time or vehicle miles travelled) with respect to pool size.
+d) In a real time scenario, the algorithm must be capable of allocating passengers to a taxi cab in less than a minute.
+	What is the computation time of your ride sharing algorithm? Propose ideas to improve the computation time by quickly identifying trips that cannot be merged.
 
